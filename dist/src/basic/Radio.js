@@ -105,7 +105,7 @@ var Radio = function(_Component) {
       }), !this.props.standardStyle ?  _react2.default.createElement(_Ionicons2.default, {
        solid:this.props.selected,
         style: {
-          color: this.props.selected?'#C6C6C6':this.props.selectedColor ? this.props.selectedColor : '#C6C6C6',
+          color: this.props.selected?this.props.selectedColor ? this.props.selectedColor :'#201ACB': '#C6C6C6',
           lineHeight: 25,
           // height: 20,
           fontSize: variables.radioBtnSize
