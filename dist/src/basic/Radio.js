@@ -102,21 +102,21 @@ var Radio = function(_Component) {
           fileName: _jsxFileName,
           lineNumber: 29
         }
-      }), !this.props.standardStyle ?  _react2.default.createElement(_Ionicons2.default, {
-       solid:this.props.selected,
+      }), !this.props.standardStyle ? _react2.default.createElement(_Ionicons2.default, {
+        solid: this.props.selected,
         style: {
-          color: this.props.selected?this.props.selectedColor ? this.props.selectedColor :'#201ACB': '#C6C6C6',
+          color: this.props.selected ? this.props.selectedColor ? this.props.selectedColor : "#201ACB" : this.props.color ? this.props.color : "#C6C6C6",
           lineHeight: 25,
           // height: 20,
           fontSize: variables.radioBtnSize
-        }, name: this.props.selected ?"check-circle":"circle", __source: { fileName: _jsxFileName, lineNumber: 35 }
+        }, name: this.props.selected ? "check-circle" : "circle", __source: { fileName: _jsxFileName, lineNumber: 35 }
       }) : _react2.default.createElement(_Ionicons2.default, {
         style: {
           color: _reactNative.Platform.OS === "ios" ? this.props.selected ? this.props.selectedColor ? this.props.selectedColor : variables.radioColor : this.props.color ? this.props.color : undefined : this.props.selected ? this.props.selectedColor ? this.props.selectedColor : variables.radioSelectedColorAndroid : this.props.color ? this.props.color : undefined,
           lineHeight: variables.radioBtnLineHeight,
           fontSize: variables.radioBtnSize
         },
-        solid:true,
+        solid: true,
         name: _reactNative.Platform.OS === "ios" ? this.props.selected ? "check-circle" : "check-circle" : this.props.selected ? "check-circle" : "check-circle",
         __source: { fileName: _jsxFileName, lineNumber: 48 }
       }));
